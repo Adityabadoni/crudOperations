@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 7,
+      "name": "Christopher Taylor",
+      "email": "christopher.taylor@example.com",
+      "address": "333 Birch St, Anywhere, USA"
+    },
+    {
+      "email": "badoniaditya18@gmail.com",
+      "name": "info@softnio.com",
+      "address": "mathorawala",
+      "id": 15
+    },
+    {
+      "email": "badoniaditya18@gmail.com12",
+      "name": "Aditya Badoni dd",
+      "address": "dehradun",
+      "id": 21
+    },
+    {
+      "email": "robin@123gmail.com",
+      "name": "Aditya Badoni",
+      "address": "noida",
+      "id": 22
+    }
+  ]
+}

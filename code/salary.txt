@@ -1,0 +1,51 @@
+function App() {
+  function getadd()
+  {
+    var a=parseInt(document.getElementById("s").value)
+    var da=a*40/100;
+    document.getElementById("d").value=da;
+
+  var b=a*8/100;
+  document.getElementById('h').value=b;
+  var c=a*4/100;
+  document.getElementById('p').value=c;
+
+  var e=a+da/b-c;
+  document.getElementById('gs').value=e;
+
+  var f=e*4/100;
+  document.getElementById('it').value=f;
+
+  var he=e-f;
+  document.getElementById('hs').value=he;
+
+
+  }
+  return (
+    
+<div>
+<center><u><h1>Employement Details </h1></u></center>
+<div className="row">    
+<div className="col-md-2"></div>
+<div className='col-md-4'>
+<br/>
+    Enter Empolyement Name
+    <input type="text" className="form-control" /><br/>
+    Enter Employement ID
+    <input ty pe="text" className="form-control" /><br/>
+    Enter Employement Salary
+    <input type="text" id='s' className="form-control" /><br/>
+    
+    <input type="button" className="btn btn-success" value="Salary"onClick={()=>getadd()} /><br/>
+ <br></br>
+ <h1>Your salary detail</h1>
+ <br></br>  
+ DA<input type='text' id='  d' className='form-control'></input><br/>
+ HRA<input type='text' id='h' className='form-control'></input><br/>
+ PF<input type='text' id='p' className='form-control'></input><br/>
+GS<input type='text' id='gs' className='form-control'></input><br/>
+ IT<input type='text' id='it' className='form-control'></input><br/>
+ HSD<input type='text' id='hs' className='form-control'></input><br/>
+</div>
+</div>
+</div>  

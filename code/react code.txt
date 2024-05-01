@@ -1,0 +1,27 @@
+  var a=10;
+  var b=20;
+  var c=a+b;
+  var d=a-b;
+  var e=a*b;
+  ar=[php,python,javascript];
+  return (
+    
+    <div className='row'>
+    
+    <div className="col-md-4"></div>
+    
+    <div className='col-md-4'>
+      <br></br>
+    <center>
+    <h1>Calculation OF Two No</h1>
+    <br></br>
+    <table className="table table-success table-striped">
+      <tbody>
+        <tr><td>{a}</td><td>+</td><td>{b}</td><td>=</td><td>{c}</td></tr>
+        <tr><td>{a}</td><td>-</td><td>{b}</td><td>=</td><td>{d}</td></tr>
+        <tr><td>{a}</td><td>*</td><td>{b}</td><td>=</td><td>{e}</td></tr>
+      </tbody>
+    </table>
+    </center>
+    </div>
+    </div>
