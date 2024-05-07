@@ -23,6 +23,7 @@ import "primereact/resources/themes/lara-light-cyan/theme.css";
 import Todo from './Component/Todo/Todo';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import User from './Component/Users/User';
 
         
 function App({pageProps}) {
@@ -67,6 +68,9 @@ function App({pageProps}) {
         <Route path='emp' element={<Employee/>}/>    
         <Route path='ft1' element={<Ft1/>}/>  
         <Route path='convert' element={<Convert/>}/>
+        <Route path='users' element={<User/>}/>
+
+
         </Routes>
       </PrimeReactProvider>
       </BrowserRouter>

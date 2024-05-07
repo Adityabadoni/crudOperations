@@ -27,7 +27,7 @@ function Nav()
           <Link class="nav-link active" aria-current="page" to="/login">Login</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link active" aria-current="page" to="/register">Regiser</Link>
+          <Link class="nav-link active" aria-current="page" to="/register">Regitser</Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link active" aria-current="page" to="/calc">Calculator</Link>
@@ -52,6 +52,9 @@ function Nav()
         </li>
         <li class="nav-item">
           <Link class="nav-link active" aria-current="page" to="/todo">Todo</Link>
+        </li>
+        <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/users">API Test</Link>
         </li>
     
       </ul>
